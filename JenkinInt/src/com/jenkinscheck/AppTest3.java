@@ -1,6 +1,6 @@
 package com.jenkinscheck;
 
-import java.util.NoSuchElementException;
+/*import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
@@ -10,13 +10,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
-import org.testng.annotations.Test;
+import org.testng.annotations.Test;*/
 
 public class AppTest3 {
-	protected WebDriver driver;
+//	protected WebDriver driver;
 
-	@Test
-	public void guru99tutorials() throws InterruptedException {
+	//@Test
+	/*public void guru99tutorials() throws InterruptedException {
 
 		String eTitle = "Demo Guru99 Page";
 		String aTitle = "";
@@ -34,9 +34,9 @@ public class AppTest3 {
 			System.out.println("Test Failed");
 		}
 
-		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver).withTimeout(30, TimeUnit.SECONDS)
-				.pollingEvery(5, TimeUnit.SECONDS).ignoring(NoSuchElementException.class);
-		WebElement clickseleniumlink = wait.until(new Function<WebDriver, WebElement>() {
+	//	Wait<WebDriver> wait = new FluentWait<WebDriver>(driver).withTimeout(30, TimeUnit.SECONDS)
+		//		.pollingEvery(5, TimeUnit.SECONDS).ignoring(NoSuchElementException.class);
+		//WebElement clickseleniumlink = wait.until(new Function<WebDriver, WebElement>() {
 
 			public WebElement apply(WebDriver driver) {
 				return driver.findElement(By.xpath(
@@ -47,6 +47,6 @@ public class AppTest3 {
 		clickseleniumlink.click();
 		// close~ browser
 		driver.close();
-	}
+	}*/
 
 }

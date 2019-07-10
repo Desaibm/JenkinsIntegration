@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+  <test verbose="2" name="Default test">
     <classes>
-      <class name="com.jenkinscheck.AppTest3">
-        <methods>
-          <include name="guru99tutorials"/>
-        </methods>
-      </class> <!-- com.jenkinscheck.AppTest3 -->
+      <class name="com.Jenkinstest.JenkinsTest"/>
     </classes>
-  </test> <!-- Default test(failed) -->
+  </test> <!-- Default test -->
 </suite> <!-- Failed suite [Default suite] -->
